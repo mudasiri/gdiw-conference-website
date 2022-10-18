@@ -32,6 +32,14 @@
             </div>
         </div>
     </section>
+    <div class="mobile-menu-pane">
+        <i class="fa-solid fa-xmark" onclick="removeStuffs()"></i>
+        <ul class="mobile-nav-items">
+            <li><a href="index.htm" onclick="removeStuffs()" class="nav-item active">Home</a></li>
+            <li><a href="about.htm" onclick="removeStuffs()" class="nav-item">About Conference</a></li>
+            <li><a href="about.htm/#past-events" onclick="removeStuffs()" class="nav-item">Past Events</a></li>
+        </ul>
+    </div>
     <section class="intro container">
         <i class="fa-solid fa-bars hamburger"></i>
         <p class="intro-Text">"GDIW 2022"</p>
@@ -76,10 +84,12 @@
         </div>
     </section>
     <footer class="container">
-        <img src="img/Stripe_(company)-Logo.wine.png" alt="">
+        <img src="img/Nov-GDIW-LOGO.svg" alt="">
         <div>
             <p>THE GDIW 2022 | All Rights Reserved</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
