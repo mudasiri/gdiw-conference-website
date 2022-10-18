@@ -145,3 +145,113 @@ footer img{
     height: 70px;
     width: 90px;
 }
+
+@media screen and (min-width: 768px) {
+    .hamburger{
+        display: none !important;
+    }
+
+    .desktop-header {
+        display: block;
+    }
+
+    .cta-highlights-desktop {
+        display: block;
+        color: #FFF;
+        text-align: center;
+        margin-top : 15px;
+    }
+
+    .cta-highlights {
+        display: none;
+    }
+
+    .divider {
+        margin-bottom: 30px;
+    }
+
+    #highlights {
+        padding-top : 50px;
+        padding-bottom: 50px;
+    }
+
+    .container{
+        padding: 10px 120px;
+    }
+
+    .grid-topnav{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: end;
+        background-color: #272A31;
+        color:#FFF;
+    }
+
+    .topnav-items {
+        margin-right: 10px;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .flex-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .flex-navbar img {
+        height: 50px;
+        width: 115px;
+        background-color: #272A31;
+    }
+
+    .flex-navbar ul {
+        list-style: none;
+    }
+
+    .flex-navbar ul li {
+        display: inline;
+        margin-right: 15px;
+        color: #272A31;
+    }
+
+    .flex-navbar ul li a{
+        color: #272A31;
+        text-decoration: none;
+    }
+
+    .active {
+        color: #EC5242 !important;
+    }
+
+    .intro {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .conference-overviews {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .conference-overview1 {
+        height: 250px;;
+    }
+
+    .conference-overview2 {
+        height: 250px;;
+    }
+
+    #past-events {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .gdiwLogo {
+        height: 200px;
+    }
+    
+    .past-events-desc {
+        margin-bottom: 30px;
+    }
+}
