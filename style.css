@@ -162,3 +162,30 @@ margin-top: 5px;
 #partner {
     background-color: #3d4047;
 }
+
+#partner logos {
+    display: flex;
+    flex-direction: column;
+}
+
+#partner > h3{
+    text-align: center;
+}
+
+#partner img {
+    height: 100px;
+    width: 150px;
+}
+
+/* Footer Section */
+
+footer{
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 20px;
+    align-content: center;
+}
+footer img{
+    height: 70px;
+    width: 90px;
+}
