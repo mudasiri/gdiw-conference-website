@@ -10,12 +10,18 @@ body {
 }
 
 /* Intro area */
+
+.hamburger{
+    color: #282b32;
+    font-weight: 900;
+}
 .intro {
     background-color: #f9f9f9;
 }
 
 .intro-Text {
     color: #EC5242;
+    margin-bottom: 0px;
 }
 
 .intro h1 {
@@ -23,6 +29,8 @@ body {
     font-size: 35px;
     font-weight: 900;
     font-family: Black 900;
+    margin: 0px;
+    margin-bottom: 10px;
 
 }
 
@@ -170,6 +178,7 @@ margin-top: 5px;
 
 #partner > h3{
     text-align: center;
+    color: #fff;
 }
 
 #partner img {

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    padding: 20px 20px;
+}
+/* Intro area */
+
+.hamburger{
+    color: #282b32;
+    font-weight: 900;
+    float: left;
+}
+.intro {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.intro-Text {
+    color: #EC5242;
+    margin-bottom: 0px;
+}
+
+.intro h1 {
+    color: #EC5242;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Black 900;
+    margin: 0px;
+    margin-bottom: 10px;
+
+}
+
+.border-white {
+    border: 3px solid #f4f4f4;
+}
+
+.intro-desc {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.dates{
+    color: #5e5e5e;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.email {
+    color: #353535;
+}
+
+/* Detail about Section */
+.divider{
+    width: 10%;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    color: #EC5242;
+    height: 10;
+}
+
+#brief > h3{
+    text-align: center;
+}
+
+.gdiwLogo {
+    background-color: black;
+}
+
+#brief {
+    border-bottom: 2px solid #f4f4f4;
+}
+
+/* Past Events*/
+
+#past-events{
+
+}
+
+#past-events > h3{
+    text-align: center;
+}
+
+.conference-overviews {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px;
+}
+
+.conference-overview1 {
+    background-image: url('img/pc1.jpg');
+    background-size: cover;
+    height: 180px;
+    display: grid;
+    align-content: center;
+    color: #fff;
+}
+
+.conference-overview2 {
+    background-image: url('img/pc2.jpg');
+    background-color: #EC5242;
+    background-size: cover;
+    height: 180px;
+    display: grid;
+    align-content: center;
+    color: #fff;
+}
+
+/* Partner Section */
+
+#partner {
+    background-color: #3d4047;
+}
+
+#partner logos {
+    display: flex;
+    flex-direction: column;
+}
+
+#partner > h3{
+    text-align: center;
+    color: #fff;
+}
+
+#partner img {
+    height: 100px;
+    width: 150px;
+}
+
+/* Footer Section */
+
+footer{
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 20px;
+    align-content: center;
+}
+footer img{
+    height: 70px;
+    width: 90px;
+}
