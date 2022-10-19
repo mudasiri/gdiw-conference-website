@@ -33,8 +33,8 @@ function getSpeakers() {
   const speakerInfo2 = new Speaker('Hon. Ursula Owusu', 'Minister of Communication and Digital Economy', 'A Design Strategist and a Tech Enthusiast', 'img/ursula-owusu.hpeg.jpg');
   const speakerInfo3 = new Speaker('Hon. Dr. Kwaku Afriyie', 'Minister, Environment, Science, Technology and Innovation (MESTI)', 'A Design Strategist and a Tech Enthusiast', 'img/hon-kwaku-afriyie.jpeg');
   const speakerInfo4 = new Speaker('Dr Gordon Adomdza', 'Associate Professor of Innovation and Entrepreneurship', 'A Design Strategist and a Tech Enthusiast', 'img/gordon.jpg');
-  const speakerInfo5 = new Speaker('Dr Gordon Adomdza', 'Associate Professor of Innovation and Entrepreneurship', 'A Design Strategist and a Tech Enthusiast', 'img/mypic.jpg');
-  const speakerInfo6 = new Speaker('Dr Gordon Adomdza', 'Associate Professor of Innovation and Entrepreneurship', 'A Design Strategist and a Tech Enthusiast', 'img/AbiOla.jpeg');
+  const speakerInfo5 = new Speaker('Dr Mudasir Issah', 'Associate Professor of Innovation and Entrepreneurship', 'A Design Strategist and a Tech Enthusiast', 'img/mypic.jpg');
+  const speakerInfo6 = new Speaker('Dr Abiola Adeniyi Atohulla', 'Associate Professor of Innovation and Entrepreneurship', 'A Design Strategist and a Tech Enthusiast', 'img/AbiOla.jpeg');
   speakers = [speakerInfo1, speakerInfo2, speakerInfo3, speakerInfo4, speakerInfo5, speakerInfo6];
   return speakers;
 }
