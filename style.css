@@ -126,7 +126,7 @@ body {
 
 .box-h-item {
   background-color: #3d4047;
-  padding: 10px 20px;
+  padding: 30px 45px;
   margin-bottom: 10px;
 }
 
@@ -142,7 +142,7 @@ body {
   display: grid;
   grid-template-columns: 32px 80px auto;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 
 footer img {
