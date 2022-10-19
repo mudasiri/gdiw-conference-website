@@ -2,7 +2,7 @@
 
 # Ghana Digital Innovation Week
 
->  This is a demo conference website built mimicking the real world conference Ghana Digital and Innovation Week held every year.
+>  This is a demo conference website built mimicking the real world conference Ghana Digital and Innovation Week held every year in Ghana.
 
 
 ## Built With
@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://mudasiri.github.io/portfolio/)
+[Live Demo Link](https://mudasiri.github.io/gdiw-conference-website/)
 
 
 ## Getting Started

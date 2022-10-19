@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ghana Digital Innovation Week</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/69bb18a36d.js" crossorigin="anonymous"></script>
+</head>
+<body class="body" onload="displayWorks()">
+    <section class="desktop-header">
+        <div class="grid-topnav container">
+            <div>
+                <a href="http://" class="topnav-items"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" class="topnav-items"><i class="fa-brands fa-twitter"></i></a>
+                <span><a href="" class="topnav-items">English</a></span>
+                <span><a href="" class="topnav-items">Twi</a></span>
+                <span><a href="" class="topnav-items">Dagbani</a></span>
+            </div>
+        </div>
+        <div class="flex-navbar container">
+            <div>
+                <a href="index.html"><img src="img/Nov-GDIW-LOGO.svg" alt="GDIW Logo"></a>
+            </div>
+            <div class="nav-items">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About Conference</a></li>
+                        <li><a href="about.html/#past-events">Past Events</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <div class="mobile-menu-pane">
+        <i class="fa-solid fa-xmark" onclick="removeStuffs()"></i>
+        <nav>
+            <ul class="mobile-nav-items">
+                <li><a href="index.html" onclick="removeStuffs()" class="nav-item active">Home</a></li>
+                <li><a href="about.html" onclick="removeStuffs()" class="nav-item">About Conference</a></li>
+                <li><a href="about.html/#past-events" onclick="removeStuffs()" class="nav-item">Past Events</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="intro container">
+        <i class="fa-solid fa-bars hamburger"></i>
+        <p class="intro-Text">"GDIW 2022"</p>
+        <h1>Glocalizing Ghana's Digital <br> & Innovation Ecosystem: Opportunities <br> for Economic Development</h1>
+        <div class="border-white intro-desc">
+            <p>A trilateral program to celebrate the accomplishments of Ghana's digital innovation ecosystem and build <br> momentum towards a common vision for its future development.</p>
+        </div>
+        <p class="venue"><span class="dates">2022.10.26(WED) ~ 28(FRI)</span> <br> @Accra International Conference Centre</p>
+    </section>
+    <section id="highlights" class="container">
+        <h3 class="highlights-title">Main Program</h3>
+        <hr class="divider">
+        <div class="activity-items">
+            <div class="box-h-item flex-activities">
+                <img src="img/conference.png" alt="Panel Discussion Icon">
+                <h3>Panel Discustions</h3>
+                <div>
+                    <p>Responsible AI and ethics in response to Fourth Industrial Revolution</p>
+                </div>
+            </div>
+            <div class="box-h-item flex-activities">
+                <img src="img/workshop.png" alt="Workshop Icon">
+                <h3>Workshops</h3>
+                <div>
+                    <p>Extrapreneuring Our Way into Digital Transformation</p>
+                </div>
+            </div>
+            <div class="box-h-item flex-activities">
+                <img src="img/speech-bubble.png" alt="Forum Icon">
+                <h3>Panel Discustions</h3>
+                <div>
+                    <p>Responsible AI and ethics in response to Fourth Industrial Revolution</p>
+                </div>
+            </div>
+            <div class="box-h-item flex-activities">
+                <img src="img/exhibition.png" alt="Exhibition Icon">
+                <h3>Training Session</h3>
+                <div>
+                    <p>Responsible AI and ethics in response to Fourth Industrial Revolution</p>
+                </div>
+            </div>
+            <div class="box-h-item flex-activities">
+                <img src="img/fireball.png" alt="Fireball Icon">
+                <h3>Expert Session</h3>
+                <div>
+                    <p>Responsible AI and ethics in response to Fourth Industrial Revolution</p>
+                </div>
+            </div>
+        </div>
+        <div class="cta-highlights">
+            <a href="#">Join GDIW 2022</a>
+        </div>
+        <a href="#" class="cta-highlights-desktop">See the whole Program</a>
+    </section>
+    <section id="speakers" class="container">
+    </section>
+    <section id="partner" class="container">
+        <h3>Partners</h3>
+        <hr class="divider">
+        <div class="logos">
+            <img src="img/Google-Logo.wine.png" alt="Google Logo">
+            <img src="img/Airbnb-Logo.wine.png" alt="Airbnb Logo">
+            <img src="img/Stripe_(company)-Logo.wine.png" alt="Stripe Logo">
+            <img src="img/Facebook-Logo.wine.png" alt="Facebook Logo">
+        </div>
+    </section>
+    <footer class="container">
+        <img src="img/Nov-GDIW-LOGO.svg" alt="GDIW 2022 Logo">
+        <div>
+            <p>THE GDIW 2022 | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
