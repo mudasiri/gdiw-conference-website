@@ -33,7 +33,7 @@ body {
     width: 12px;
     padding-left: 40px;
     margin-top: 15px;
-    display: block;
+    display: block !important;
   }
 
   .mobile-menu-pane {
