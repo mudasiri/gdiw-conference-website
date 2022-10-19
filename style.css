@@ -148,6 +148,7 @@ body {
 footer img {
   height: 70px;
   width: 90px;
+  background-color: #272a31;
 }
 
 .box-h-item > img {
@@ -239,6 +240,9 @@ footer {
   grid-template-columns: 100px auto;
   gap: 20px;
   align-content: center;
+  background-color: #f2f2f2;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 
 .desktop-header {

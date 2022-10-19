@@ -170,6 +170,7 @@ body {
 footer img {
   height: 70px;
   width: 90px;
+  background-color: #272a31;
 }
 
 #partner img {
@@ -183,7 +184,11 @@ footer {
   display: grid;
   grid-template-columns: 100px auto;
   gap: 20px;
-  align-content: center;
+  justify-content: start;
+  background-color: #2e2e2e;
+  color: #fff;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 
 .desktop-header {
