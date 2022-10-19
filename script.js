@@ -90,6 +90,5 @@ function prepareSpeaker(speakers) {
 }
 
 function displayWorks() {
-  console.log(getSpeakers());
   prepareSpeaker(getSpeakers());
 }
