@@ -126,7 +126,6 @@ body {
 
 .box-h-item {
   background-color: #3d4047;
-  padding: 30px 45px;
   margin-bottom: 10px;
 }
 
@@ -153,6 +152,7 @@ footer img {
 
 .box-h-item > img {
   margin-right: 10px;
+  margin-left: 10px;
   height: 32px;
   width: 32px;
 }
@@ -358,6 +358,21 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .flex-activities p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .flex-activities img{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .flex-activities h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .speakers {
